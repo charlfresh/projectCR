@@ -1,0 +1,46 @@
+header {
+	font-family: "Allura", serif;
+	background: #eaf6f6;
+	color: #66bfbf;
+	margin: 0px; 
+}
+h1 {
+	text-align: center;
+}
+#headerdiv {
+}
+main {
+	background: #fcfefe; 
+	font-family: serif;
+	margin: 0px;
+}
+#bigimage {
+	background-image: url(img/facemask.png);
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: center top;
+	background-repeat: no-repeat;
+        height: 50vh;
+	width: 100%;
+}
+.grid1 {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+#left {
+	grid-column-start: 1;
+}
+#main {
+	grid-column-start: 2;
+}
+#right {
+	grid-column-start: 3;
+}
+footer {
+        font-family: "Allura", serif;
+        background: #eaf6f6;
+        color: #66bfbf; 
+}
+

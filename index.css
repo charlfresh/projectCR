@@ -149,3 +149,14 @@ footer {
         background-color: #ddd;
         color: black;
 }
+.imgauto { 
+        width: 100%;
+        height: auto;
+}
+.nailsgrid {
+	align-items: center;
+	padding: 10px !important;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+} 
+

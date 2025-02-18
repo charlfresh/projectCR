@@ -98,7 +98,8 @@ main {
 footer {
         font-family: "Allura", serif;
         background: #eaf6f6;
-        color: #66bfbf; 
+        color: #f76b8a; 
+	margin-top: -10px;
 }
 
 .navbar a:hover {

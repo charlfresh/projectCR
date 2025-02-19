@@ -89,7 +89,7 @@ main {
 }
 #main {
 	grid-column-start: 2;
-	padding: 5px;
+	padding: 10px;
 	background-color: #eaf6f6;
 	border-top: 2px solid #f76b8a;
 	border-bottom: 2px solid #f76b8a;
@@ -153,13 +153,6 @@ footer {
         width: 100%;
         height: auto;
 }
-.nailsgrid {
-	align-items: center;
-	padding: 0px !important;
-	display: grid;
-	background-color: #f76b8a;
-	grid-template-rows: 1fr 1fr 1fr;
-} 
 .ndiv {
 	margin: 2px;
 	display: flex;
@@ -174,6 +167,7 @@ footer {
 	border: 2px solid #f76b8a;
 	height: 75px;
 	padding: 5px;
+	background-clip: padding-box;
 }
 .divlink a {
 	text-decoration: none;
@@ -184,4 +178,9 @@ footer {
   	align-items: center;
   	justify-content: center;
 }
-
+.divlink a:hover {
+	background-clip: padding-box;
+	background-color: #ddd;
+        color: black;
+}
+	

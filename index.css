@@ -183,4 +183,31 @@ footer {
 	background-color: #ddd;
         color: black;
 }
+#footcontainer {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	height: 5%;
+}
+footer {
+	margin: 0px;
+}
+#foot1 {
+	grid-column-start: 1;
+	border: 2px solid #f76b8a;
+	border-top: 0px;
+	padding: 10px;
+}
+#foot2 {
+	grid-column-start: 2;
+        border: 2px solid #f76b8a;
+        border-top: 0px;
+	border-left: 0px;
+        padding: 10px;
+}
+#htmlcss {
+	border: 2px solid #f76b8a;
+        border-top: 0px;
+        padding: 10px;
+}
+
 	

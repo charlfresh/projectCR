@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <script src="js/init.js"></script>
+        <title>ProjectCR</title>
+</head>
+<body>
+        <header>
+        <div class="navgrid">
+                <div class="navbar">
+                        <div class="navbargrid">
+                                <div class="dropdown">
+                                        <button class="dropbtn">Menu
+                                        <i class="fa fa-caret-down"></i>
+                                        </button>
+                                        <div class="dropdown-content">
+                                                <a href="Hairstyling.html">Hair</a>
+                                                <a href="Makeup.html">Facial</a>
+                                                <a href="nails.html">Nails</a>
+                                        </div>
+                                </div>
+                                <div id="homelink">
+                                <a href="index.html">Home</a>
+                                </div>
+                        </div>
+                </div>
+                <div id="h1grid">
+                        <h1>Cosmetology</h1>
+                </div>
+                <div class="emptyspace">
+                <img id="favicon" src="img/favicon.png" alt="favicon">
+                </div>
+        </div>
+        </header>
+	<main>
+		<div id="bigimage"></div>
+		<div class="grid1">
+			<div id="left" class="nailsdiv">
+				<div>
+				<img src="img/shorthair.png" alt="short hair" class="imgauto">
+				</div>
+				<div>
+                                <img src="img/shorthair.png" alt="short hair" class="imgauto">
+                                </div>
+				<div>
+                                <img src="img/shorthair.png" alt="short hair" class="imgauto">
+                                </div>
+			</div>
+			<div id="main">
+                        	<h3>Book a Nails Appointment</h3>
+				<form class="form" method="GET" action="#">
+					<label for="firstname">What is your First Name?</label><br>
+					<input type="text" name="firstname" id="firstname" required><br>
+					<label for="lastname">What is your Last Name?</label><br>
+					<input type="text" name="lastname" id="lastname" required><br>
+					<label for="phone">What is your phone number?</label><br>
+					<input type="tel" name="phone" id="phone" required><br>
+					<label for="email">What is your email address?</label><br>
+					<input type="email" name="email" id="email" required><br>
+					<label for="time">Choose a Time (8:00 AM - 4:00 PM)</label><br>
+					<input type="time" id="time" name="time" min="08:00" max="16:00" required><br>
+					<p>What would you like to have done?</p>
+					<label>
+					<input id="selection" name="haircut" value="haircut" type="checkbox">
+					haircut ($15)
+					</label><br>
+					<label>
+                                        <input id="haircut" name="hairstyling" value="haircut" type="checkbox">
+                                        haircut + products ($20)
+                                        </label><br>
+					<label>
+                                        <input id="shampoo/sea salt spray" name="products" value="shampoo/sea salt spray" type="checkbox">
+					</label><br>
+					<textarea id="comments" name="comments"></textarea><br>
+					<input type="submit" name="submit">
+				</form>
+			</div>
+			<div id="right" class="nailsdiv">
+				<div>
+				<img src="img/braids.png" alt="braids" class="imgauto">
+				</div>
+				<div>
+                                <img src="img/braids.png" alt="braids" class="imgauto">
+                                </div>
+				<div>
+                                <img src="img/braids.png" alt="braids" class="imgauto">
+                                </div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
